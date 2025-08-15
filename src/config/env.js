@@ -1,3 +1,3 @@
 
 // src/config/env.js
-require('dotenv').config();
+require('.env').config();
