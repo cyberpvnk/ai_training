@@ -1,0 +1,7 @@
+curl --location 'http://localhost:5000/users/register' \
+--header 'Content-Type: application/json' \
+--data-raw '    {
+    "username": "john_smith",
+    "email": "johnsmith@example.com",
+    "password": "Password123!"
+    }'
